@@ -1,2 +1,2 @@
-# 305HTMeal
-HTMeal, Take 2
+# HTMeal
+CSC305
