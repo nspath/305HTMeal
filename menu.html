@@ -4,6 +4,16 @@
 HTMeaL
 </TITLE>
 <link rel="stylesheet" type="text/css" href="style.css">
+<STYLE>
+
+.heart{
+    font-size:2em;
+}
+.heart:hover{
+color:red;
+font-weight: bolder;
+cursor: pointer;
+}
 </STYLE>
 </HEAD>
 <BODY>
@@ -61,30 +71,33 @@ HTMeaL
 
 
 <div class="container" id="menu">
-
-<H2>Menu Page </h2>
-<P>Menu //TODO.
-    </P>
+</center>
+<H2>HTMeals</h2>
 
     <div>
-    	&#9825; The Binary Burger <br>
-    	&#9825; Nachos == null <br>
-    	&#9825; public class chicken sandwich <br>
-    	&#9825; public void prime rib <br>
-    	&#9825; Tuna = True <br>
-    	&#9825; Item#06 <br>
-    	&#9825; Item#07 <br>
-    	&#9825; Item#08 <br>
-    	&#9825; Item#09 <br>
-    	&#9825; Item#10 <br>
-    	&#9825; Item#11 <br>
-    	&#9825; Item#12 <br>
-    	&#9825; Item#13 <br>
-
-
-
+    	<span class="heart" id="heart_1" style="visibility:block;" onclick="favorite('heart_1')">&#9825;</span> The Binary Burger <br>
+    	<span class="heart" id="heart_2" style="visibility:block;" onclick="favorite('heart_2')">&#9825;</span> Nachos == null <br>
+    	<span class="heart" id="heart_3" style="visibility:block;" onclick="favorite('heart_3')">&#9825;</span> Public Class Chicken Sandwich <br>
+    	<span class="heart" id="heart_4" style="visibility:block;" onclick="favorite('heart_4')">&#9825;</span> PTuna Tasty == True <br>
+    	<span class="heart" id="heart_5" style="visibility:block;" onclick="favorite('heart_5')">&#9825;</span> $MLs Good <br>
+    	<span class="heart" id="heart_6" style="visibility:block;" onclick="favorite('heart_6')">&#9825;</span> Cascading Sandwich Sliders <br>
+    </div>
+    <H2>CSSweets</h2>
+        <div>
+    	<span class="heart" id="heart_7" style="visibility:block;" onclick="favorite('heart_7')">&#9825;</span> Java-Chip Cache-and-Cookie Crumble <br>
+    	<span class="heart" id="heart_8" style="visibility:block;" onclick="favorite('heart_8')">&#9825;</span> Cherry-Query Berry Pi<br>
+    	<span class="heart" id="heart_9" style="visibility:block;" onclick="favorite('heart_9')">&#9825;</span> The PHP (Pinapple Honey Pastry)<br>
     </div>
 </div> -->
+
+<script type="text/javascript">
+
+function favorite(thisId)
+{
+    document.getElementById(thisId).innerHTML="&#128153;";
+}
+
+</script>
 </BODY>
 
 
