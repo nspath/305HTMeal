@@ -33,7 +33,7 @@ body{
     width:80%;
     position: relative;
     top:100px;
-    margin: 0px auto;
+    margin: 10px auto;
     margin-bottom: 30px;
     text-align: left;
 }
@@ -127,17 +127,29 @@ Class name automatically added to element */
 /* Container DIV */
 .simply-scroll { 
     width: 800px;
+<<<<<<< HEAD
     height: 200px;
     margin-bottom: 1em;
     margin-left: 6.5em;
+=======
+    height: 500px;
+    margin-bottom: 5em;
+    margin-left: 5em;
+>>>>>>> cfe357693bb1fee7196aedf699f4cfecede3784d
     text-align: center ;
 }
 
 /* Clip DIV */
 .simply-scroll .simply-scroll-clip {
     width: 800px;
+<<<<<<< HEAD
     height: 200px;
     text-align: center ;
+=======
+    height: 300px;
+    text-align: center ;
+
+>>>>>>> cfe357693bb1fee7196aedf699f4cfecede3784d
 }
     
 /* Explicitly set height/width of each list item */ 
