@@ -140,7 +140,7 @@ Note all DIVs are generated and should not be hard-coded
 .simply-scroll { /* Customisable base class for style override DIV */
 	width: 800px;
 	height: 0px;
-	margin-bottom: 10em;
+	margin-bottom: 13em;
 }
 
 	.simply-scroll .simply-scroll-clip {

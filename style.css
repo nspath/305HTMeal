@@ -129,15 +129,16 @@ Class name automatically added to element */
     width: 800px;
     height: 500px;
     margin-bottom: 5em;
-    margin-left: 6.5em;
+    margin-left: 5em;
     text-align: center ;
 }
 
 /* Clip DIV */
 .simply-scroll .simply-scroll-clip {
     width: 800px;
-    height: 200px;
+    height: 300px;
     text-align: center ;
+
 }
     
 /* Explicitly set height/width of each list item */ 
