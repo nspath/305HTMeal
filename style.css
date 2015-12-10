@@ -72,17 +72,38 @@ h1
 }
 
 .gallery_item{
-    width: 290px;
-    height: 290px;
+    height: 200px;
     margin:10px;
     box-shadow: 5px 5px 5px #444;
     float: left;
+    overflow: none;
+    position: relative;
 }
 
 #menu
 {
 	text-align: center;
 }
+
+#locations{
+    text-align: center;
+}
+
+#content-column1{
+    width:45%;
+    float: left;
+
+}
+
+#content-column2{
+    width:45%;
+    float: right;
+
+}
+
+
+
+
 
 
 
@@ -127,18 +148,29 @@ Class name automatically added to element */
 /* Container DIV */
 .simply-scroll { 
     width: 800px;
+<<<<<<< HEAD
+    height: 200px;
+    margin-bottom: 1em;
+    margin-left: 6.5em;
+=======
     height: 500px;
     margin-bottom: 5em;
     margin-left: 5em;
+>>>>>>> cfe357693bb1fee7196aedf699f4cfecede3784d
     text-align: center ;
 }
 
 /* Clip DIV */
 .simply-scroll .simply-scroll-clip {
     width: 800px;
+<<<<<<< HEAD
+    height: 200px;
+    text-align: center ;
+=======
     height: 300px;
     text-align: center ;
 
+>>>>>>> cfe357693bb1fee7196aedf699f4cfecede3784d
 }
     
 /* Explicitly set height/width of each list item */ 
@@ -150,6 +182,78 @@ Class name automatically added to element */
 }
 
 /*Side scroller end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Scroll Menu Code*/
+
+
+
+
+#menufix{
+    background: black;
+    moz-transition: all 1s ease-in-out;
+    opacity: 0;
+    o-transition: all 1s ease-in-out;
+    overflow: auto;
+    padding: 20px 20px;
+    position: fixed;
+    top: 0;
+    transition: all 1s ease-in-out;
+    webkit-transition: all 1s ease-in-out;
+    width: 95.5%;
+}
+#menufix .back{
+    background-color: #2FC192;
+    color: #fff;
+    display: black;
+    height: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    text-decoration: none;
+    width: 20px;
+}
+#menufix.active_more{
+    opacity: 50;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: fixed;
+    z-index: 1;
+}
+#menufix.active{
+    opacity: 100;
+    position: fixed;
+    z-index: 1;
+}
+.menu{
+    float: right;
+    list-style-type: none;
+    padding: 2px 2px;
+    text-align: right;
+    /*width: 50px;*/
+}
+.menu li{
+    display: inline;
+}
+.menu a{
+    color: #fff;
+    padding: 0 0 0 10px;
+    padding: 10px;
+    text-shadow: 1px 1px black;
+}
+
+
 
 
 

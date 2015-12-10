@@ -4,6 +4,8 @@
 HTMeaL
 </TITLE>
 <link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="jquery-2.1.4.js"></script>
 <STYLE>
 
 .heart{
@@ -67,7 +69,24 @@ cursor: pointer;
 <!-- Main body -->
 
 
-<!-- container 2 -->
+
+<div id="menufix">
+    <ul class="menu" style="float:left; width:200px;">
+    <li style="text-align:left"><a href="#" class="back">< Back to the top</a></li>
+    </ul>
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="locations.html">Location</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="reviews.html">Review</a></li>
+    </ul>
+</div>
+
+
+
+
+<!-- Container 2 -->
+
 
 
 <div class="container" id="menu">
@@ -96,6 +115,33 @@ function favorite(thisId)
 {
     document.getElementById(thisId).innerHTML="&#128153;";
 }
+
+</script>
+
+
+
+
+
+<!-- Lets put our jQuery Scripts here! -->
+<script type="text/javascript">
+
+$(document).ready(function() {
+         $window = $(window);
+    $(window).scroll(function(){
+
+        if($window.scrollTop() > 100)
+            $("#menufix").addClass("active");
+        else    
+            $("#menufix").removeClass("active");
+            
+        if($window.scrollTop() > 300)
+            $("#menufix").addClass("active_more");
+        else    
+            $("#menufix").removeClass("active_more");
+    });
+
+
+});
 
 </script>
 </BODY>
