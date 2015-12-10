@@ -4,9 +4,7 @@
 HTMeaL
 </TITLE>
 <link rel="stylesheet" type="text/css" href="style.css">
-
 <script src="jquery-2.1.4.js"></script>
-
 </HEAD>
 <BODY>
 
@@ -58,71 +56,27 @@ HTMeaL
 
 <!-- Main body -->
 
-
+<!-- SLiding Menu -->
 <div id="menufix">
     <ul class="menu" style="float:left; width:200px;">
-    <li style="text-align:left"><a href="#" class="back">< Back to the top</a></li>
+    <li style="text-align:left"><a href="#" class="back">< Back to Article</a></li>
     </ul>
     <ul class="menu">
         <li><a href="index.html">Home</a></li>
-        <li><a href="locations.html">Location</a></li>
+        <li><a href="locations.html">Locations</a></li>
         <li><a href="menu.html">Menu</a></li>
-        <li><a href="reviews.html">Review</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
     </ul>
 </div>
 
 
 <!-- container 2 -->
-
-   
-<div class="container" id="locations">
-
-<H2>Locations</h2>
-
-</div>
-
-<div class="container" >
-
-<H2>Locations</h2>
-
-<p>
-5894 Primrose Lane <br>
-Fort Washington, MD 20744
-</p>
-
-</div>
-
-<div class="container" >
-
-<H2>Locations</h2>
-
-<p>
-364 Maine Mall Road <br>
-South Portland, ME 04106
-</p>
-
-</div>
-
-<div class="container" >
-
-<H2>Locations</h2>
-
-</div>
-
 <div class="container">
 
-<H2>Locations</h2>
-
+<H2>Location Page</h2>
+<P>  //TODO
+    </P>
 </div>
-
-
-
-
-
-
-
-
-
 
 <div class="container">
 
@@ -131,20 +85,8 @@ South Portland, ME 04106
 
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-<!-- Lets put our jQuery Scripts here! -->
-<script type="text/javascript">
-
+<!-- Menu Scroll Jquery -->
+<script>
 $(document).ready(function() {
          $window = $(window);
     $(window).scroll(function(){
@@ -159,15 +101,9 @@ $(document).ready(function() {
         else    
             $("#menufix").removeClass("active_more");
     });
-
-
 });
-
 </script>
-
-
-
-
+<!-- End Menu Scroll Jquery -->
 
 
 </BODY>

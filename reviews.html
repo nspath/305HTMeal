@@ -4,7 +4,6 @@
 HTMeaL
 </TITLE>
 <link rel="stylesheet" type="text/css" href="style.css">
-
 <script src="jquery-2.1.4.js"></script>
 </HEAD>
 <BODY>
@@ -54,39 +53,30 @@ HTMeaL
     </a>
 
 </div>
-   
+<!-- Main Body -->
 
-
-
+<!-- SLiding Menu -->
 <div id="menufix">
     <ul class="menu" style="float:left; width:200px;">
-    <li style="text-align:left"><a href="#" class="back">< Back to the top</a></li>
+    <li style="text-align:left"><a href="#" class="back">< Back to Article</a></li>
     </ul>
     <ul class="menu">
         <li><a href="index.html">Home</a></li>
-        <li><a href="locations.html">Location</a></li>
+        <li><a href="locations.html">Locations</a></li>
         <li><a href="menu.html">Menu</a></li>
-        <li><a href="reviews.html">Review</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
     </ul>
 </div>
 
-
-
+<!-- Form -->
 <div class="container">
 <P><H2>Tell Us About Your Visit!</H2>
     <P> We love to hear from you! Tell us what was great about your visit, or what we can improve on for next time. 
         <P><script type="text/javascript" src="https://form.jotform.com/jsform/53346141195150"></script>
 ></div>
 
-
-
-
-
-
-
-<!-- Lets put our jQuery Scripts here! -->
-<script type="text/javascript">
-
+<!-- Menu Scroll Jquery -->
+<script>
 $(document).ready(function() {
          $window = $(window);
     $(window).scroll(function(){
@@ -101,10 +91,8 @@ $(document).ready(function() {
         else    
             $("#menufix").removeClass("active_more");
     });
-
-
 });
-
 </script>
+<!-- End Menu Scroll Jquery -->
 </BODY>
 </HTML>
