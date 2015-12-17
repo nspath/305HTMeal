@@ -1,26 +1,30 @@
 /*This is the style sheet that we will be using for the HTMeal website.*/
 
-body{
+body
+
+{
     background-image: url("wood_2.png");
 
     font-family: Century Gothic;
 }
-/*Header of the page*/
-.header{
-	left:0px;
-	right:0px;
-	top:0px;
-	height:180px;
-	padding-top: 20px;
-	text-align: right;
-	position:absolute;
-	font-weight: bolder;
-	color:#fff;
-    font-size: 1.5em;
-	padding-right: 200px;
-	/*background-color:rgba(255,255,255, .3);*/
 
-	width:auto;
+/*Header of the page*/
+.header
+{
+    left:0px;
+    right:0px;
+    top:0px;
+    height:180px;
+    padding-top: 20px;
+    text-align: right;
+    position:absolute;
+    font-weight: bolder;
+    color:#fff;
+    font-size: 1.5em;
+    padding-right: 200px;
+    /*background-color:rgba(255,255,255, .3);*/
+
+    width:auto;
     box-shadow: 2px 2px 4px #554433;
 }
 
@@ -39,7 +43,7 @@ body{
 }
 /* NAVIGATION */
 /* There is a div class .nav that has an auto height, relative position, and no margin, centered. Background is set to a color (green) so it is evident if it is overflowing or content is accidentally pushed into it.*/
-/* It should automatically not extend, because it holds divs that do not expand it */
+/* It should automatically not tend, because it holds divs that do not expand it */
 
 .nav{width:80%; height:auto; position:relative; margin:0 auto; background-color:green; margin-top:180; }
 
@@ -57,7 +61,7 @@ body{
 
 h1
 {
-	font-size: 3em;
+    font-size: 3em;
 }
 
 .gallery
@@ -79,14 +83,10 @@ h1
     float: left;
 }
 
-#menu
-{
-	text-align: center;
-}
-
-
 
 /*Side Scroller */
+
+
 /* Container DIV - automatically generated */
 .simply-scroll-container { 
     position: relative;
@@ -137,6 +137,10 @@ Class name automatically added to element */
     height: 300px;
     text-align: center ;
 
+}
+
+.heart{
+   text-align: right;
 }
     
 /* Explicitly set height/width of each list item */ 
