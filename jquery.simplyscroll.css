@@ -138,13 +138,16 @@ Note all DIVs are generated and should not be hard-coded
 */
 
 .simply-scroll { /* Customisable base class for style override DIV */
-	width: 800px;
+	width: 80%;
+	margin:0px auto;
 	height: 0px;
 	margin-bottom: 13em;
 }
 
 	.simply-scroll .simply-scroll-clip {
-		width: 1000px;
+		/*width: 1000px;*/
+		width:80%;
+		margin:0px auto;
 		height: 200px;
 	}
 	
